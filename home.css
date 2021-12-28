@@ -1,0 +1,214 @@
+html,body{
+    margin:0;
+}
+
+.dev{
+    background:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(main.png);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 22px;
+    background-repeat: no-repeat;
+    background-position: 10%;
+    background-size: 105%;
+    object-fit: cover;
+}
+
+.img{
+    width: 100%;
+    height:100px;
+}
+
+.child{
+    margin-top:1%;
+    margin-right:15%;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space{
+    margin-top: 1%;
+    margin-left: 4%;
+}
+.center{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text{
+    font-size: 500%;
+    color: white;
+    font-weight: bold;
+    font-family:sans-serif ;
+}
+.text1{
+    font-size: 2.3rem;
+    font-weight: 1.5;
+    margin-bottom: 2%;
+    color: white;
+    font-family:sans-serif ;
+    text-align: center;
+}
+
+.location-bar{
+        width: 60vw;
+        height: 50px;
+        padding: 4px;
+        display:flex;
+        justify-content: center;
+        border-radius: 8px;
+     
+}
+
+.location{
+        width:12vw;
+        border: none;
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+        color: rgba(0,0,0,0.6);
+        font-size: 1rem;
+}
+.input {
+   width:40vw;
+    font-size: large;
+    border: none;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    color: rgba(0,0,0,0.6);
+  }
+
+  a{
+    text-decoration: none;
+    color: white;
+  }
+
+.zomata-img{
+    height: 60px;
+    margin-bottom:12%;
+}
+
+.a1{
+    display: flex;
+}
+
+.a2{
+    flex:1;
+}
+
+.a3{
+    flex:6;
+}
+
+.layout1{
+    margin-top:1%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.fooddiv{
+    margin: 5px;
+    width: 260px;
+    border-radius:20px ;
+    transition: all 0.5s;
+    border: 0.5px solid rgba(0,0,0,0.1);
+}
+
+.fooddiv:hover{
+    margin: 1px;
+    width: 280;
+    border: 0.5px solid rgba(0,0,0,0.3);
+}
+
+.food-img{
+    width:100%;
+    height: 200px;
+    object-fit:fill;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.foodtext{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 20px;
+}
+
+.collection{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-bottom: 5%;
+}
+
+.collectiondiv{
+    margin: 5px;
+    margin-top: 10px;
+    width: 260px;
+    height: 300px;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.bg1{
+    background:linear-gradient(rgba(255,255,255,0.005),rgba(0,0,0,0.7)), url(bg1.png);
+    background-size: 115%;
+}
+
+.bg2{
+    background:linear-gradient(rgba(255,255,255,0.005),rgba(0,0,0,0.7)), url(bg2.jpg);
+    background-size: 115%;
+}
+.bg3{
+    background:linear-gradient(rgba(255,255,255,0.005),rgba(0,0,0,0.7)), url(bg3.jpg);
+    background-size: 115%;
+}
+.bg4{
+    background:linear-gradient(rgba(255,255,255,0.005),rgba(0,0,0,0.7)), url(bg4.jpg);
+    background-size: 115%;
+}
+
+.collectiontext1{
+    margin-top: 70px;
+    padding-left: 30px;
+    font-size: 2.5rem;
+    color: rgba(0,0,0,0.9);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.collectiontext2{
+    color: rgba(0,0,0,0.7);
+    padding-left: 30px;
+    padding-top: 5px;
+    font-size: 1.2rem;
+}
+
+.collectiontext{
+    margin-top:10px ;
+    margin-left: 20px;
+    margin-bottom:3px;
+    font-size: 1.2rem;
+    display:flex;
+    color:white;
+}
+
+.cdiv{
+    margin-left: 20px;
+    margin-bottom: 5px;
+    display:flex;
+    color:white;
+    font-size: 1.1rem;
+}
+
+.text4{
+    font-size: xx-large;
+    text-align: center;
+
+}

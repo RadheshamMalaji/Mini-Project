@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    background: rgb(0,0,0,0.1);
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: rgb(255,255,255,1);
+    height: 40vh;
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.input
+{
+    margin: 1%;
+    width: 20vw;
+    height: 5vh;
+}
+
+.input1
+{
+    margin: 1%;
+    width: 20.5vw;
+    height: 5vh;
+}
+
+.color{
+    background: rgb(0,0,0,0.2);
+    color: rgb(255,255,255,0.7);
+    font-size: medium;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.text{
+    margin-bottom: 6%;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.cwg{
+    margin-top: 10%;
+    background: white;
+    border : 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: red;
+  }

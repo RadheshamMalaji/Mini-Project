@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.login1{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.center{
+    background: rgb(0,0,0,0.5);
+    height: 50vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input
+{
+    margin: 1%;
+    width: 30vw;
+    height: 7vh;
+}
+
+.color{
+    background: rgb(0,0,0,0.8);
+    color: rgb(255,255,255,0.7);
+    font-size: x-large;
+    font-family: cursive;
+    font-weight: bolder;
+}

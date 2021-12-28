@@ -1,0 +1,80 @@
+html, body
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+}
+
+body{
+    margin:0;
+    height:100vh;
+    width: 100vw;
+    overflow: hidden;
+    align-items: center;
+}
+
+.center{
+    height: 100%;
+    background: rgba(0,0,0,0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Login ul
+{
+    list-style: none;
+}
+
+#Login ul li a
+{
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+    box-shadow: 0 10px 10px rgba(0,0,0,.3);
+}
+
+.text{
+    font-size: 1.7rem;
+    font-weight: bolder;
+}
+
+.text1{
+    width: 15vw;
+    height: 3vh;
+}
+.container
+{
+    margin: auto;
+    width: 500px;
+    max-width:90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.center1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container form{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0,0,0,.3);
+}
+
+.container form p
+{
+    text-align: center;
+    object-fit: fill;
+}
